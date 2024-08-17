@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Laboratório Patrícia Cruz",
-  description: "Desenvolvido por @pguilhermef",
+  description: "Laboratório de Prótese Dentária Desenvolvido por @pguilhermef",
 };
 
 export default function RootLayout({ children }) {
