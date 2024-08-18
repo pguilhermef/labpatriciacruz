@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         "paty-blue": "#0F2650",
         "paty-cyan": "#01CFC9",
+        "paty-cyan-opacity": "#CCF5F4",
       },
     },
   },

@@ -10,8 +10,8 @@ import clock from "@/public/clock.svg"
 
 function Footer() {
   return (
-    <footer className="bg-paty-cyan bg-opacity-20 flex justify-center items-center">
-      <div className="sm:h-44 sm:w-5/6 2xl:w-4/6  flex flex-col sm:flex-row  items-center justify-center text-black">
+    <footer className="flex bg-paty-cyan-opacity justify-center items-center">
+      <div className="sm:h-44 sm:w-5/6 2xl:w-4/6 flex flex-col sm:flex-row items-center justify-center text-black">
         {/* Redes - OK */}
         <div className="sm:w-1/3 w-full h-full flex flex-col justify-evenly p-4 gap-y-2">
           <div className="text-lg lg:text-xl font-medium">
