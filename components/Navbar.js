@@ -20,7 +20,7 @@ function Navbar() {
 
         {/* Botão de menu hambúrguer para mobile */}
         <button
-          className="sm:hidden p-2 focus:outline-none"
+          className="md:hidden p-2 focus:outline-none"
           onClick={toggleMenu}
         >
           <svg
@@ -40,7 +40,7 @@ function Navbar() {
         </button>
 
         {/* Opções de navegação - visível em telas maiores */}
-        <div className="hidden sm:flex justify-around items-center text-xl w-8/12 md:w-6/12 h-full max-w-4xl text-black">
+        <div className="hidden md:flex justify-around items-center text-xl w-8/12 md:w-6/12 h-full max-w-4xl text-black">
           {['Home', 'Serviços', 'Quem Somos', 'Contato'].map((item) => (
             <div
               key={item}
@@ -62,7 +62,7 @@ function Navbar() {
 
         {/* Menu Mobile */}
         {isOpen && (
-          <div className="sm:hidden absolute top-full left-0 w-full bg-white text-black p-4 z-50 flex flex-col items-center">
+          <div className="md:hidden absolute top-full left-0 w-full bg-white text-black p-4 z-50 flex flex-col items-center">
             {['Home', 'Serviços', 'Quem Somos', 'Contato'].map((item) => (
               <div
                 key={item}
